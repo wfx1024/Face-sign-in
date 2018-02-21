@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <servlet>
+    <servlet-name>RecentFiles</servlet-name>
+    <servlet-class>cn.wfx.main.RecentFiles</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RecentFiles</servlet-name>
+    <url-pattern>/RecentFiles</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GetUploadProgress</servlet-name>
+    <servlet-class>cn.wfx.main.GetUploadProgress</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetUploadProgress</servlet-name>
+    <url-pattern>/GetUploadProgress</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ReceiveInf</servlet-name>
+    <servlet-class>cn.wfx.main.ReceiveInf</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReceiveInf</servlet-name>
+    <url-pattern>/ReceiveInf</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Count_residue</servlet-name>
+    <servlet-class>cn.wfx.main.Count_residue</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Count_residue</servlet-name>
+    <url-pattern>/Count_residue</url-pattern>
+  </servlet-mapping>
+</web-app>
